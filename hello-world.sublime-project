@@ -1,0 +1,27 @@
+{
+	"folders": [
+		{
+			"path": ".",
+		},
+	],
+	"settings": {
+		"LSP": {
+			"lua-language-server": {
+				"settings": {
+					"Lua.workspace.library": [
+						"/Users/colinkiama/Developer/PlaydateSDK/CoreLibs"
+					],
+					"Lua.diagnostics.globals": [
+						"playdate",
+						"import"
+					],
+					"Lua.runtime.nonstandardSymbol": ["+=", "-=", "*=", "/=", "//=", "%=", "<<=", ">>=", "&=", "|=", "^="],
+					"Lua.diagnostics.severity": { "duplicate-set-field": "Hint" },
+					"Lua.format.defaultConfig": { "indent_style": "space", "indent_size": "4" },
+					"Lua.runtime.builtin": { "io": "disable", "os": "disable", "package": "disable" },
+					"Lua.runtime.version": "Lua 5.4",
+				},
+			},
+		},
+	},
+}
