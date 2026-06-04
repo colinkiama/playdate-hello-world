@@ -1,0 +1,12 @@
+-- Machine-specific settings for Pragtical LSP (not loaded directly).
+--
+-- Setup:
+--   cp .pragtical_lsp.local.lua.example .pragtical_lsp.local.lua
+--   # edit paths below
+--
+-- .pragtical_lsp.local.lua is gitignored. This example file is committed so
+-- others can copy it. .pragtical_lsp.lua reads the local file at project load.
+
+return {
+  PLAYDATE_SDK_PATH = "/path/to/PlaydateSDK",
+}
