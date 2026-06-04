@@ -89,6 +89,8 @@ function playdate.update()
     -- average-complexity games, you will.)
 
     gfx.sprite.update()
+    gfx.setColor(gfx.kColorBlack)
+    playdate.drawFPS(0,0)
     playdate.timer.updateTimers()
 
 end
