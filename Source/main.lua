@@ -25,6 +25,10 @@ local playerSprite = nil
 
 function myGameSetUp()
 
+    -- Set refresh rate
+
+    playdate.display.setRefreshRate(50)
+
     -- Set up the player sprite.
 
     local playerImage = gfx.image.new("Images/playerImage")
